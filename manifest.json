@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "RedList",
+  "version": "1.0",
+  "description": "Highlight links which target a domain on your red list.",
+  "homepage_url": "https://github.com/Meoo/RedList",
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["redlist.js"],
+      "css": ["redlist.css"],
+      "all_frames": true
+    }
+  ],
+
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}

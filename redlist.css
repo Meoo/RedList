@@ -1,0 +1,15 @@
+.redlink-hl {
+  color: orange !important;
+}
+.redlink-hl:hover {
+  color: red !important;
+}
+.redlink-angry::before {
+  content: "😠";
+}
+.redlink-box {
+  border: 2px solid orange !important;
+}
+.redlink-box:hover {
+  border: 2px solid red !important;
+}
